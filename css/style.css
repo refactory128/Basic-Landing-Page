@@ -1,0 +1,97 @@
+header {
+    background-color: #1F2937;
+
+
+    margin:0px;
+    padding: 0px;
+    line-height: 0px;
+    color:#e5e7eb;
+    font: 18px;
+    font-family: sans-serif;
+
+}
+
+header h1{
+    margin: 0px 20px;
+    color:#f9FAF8;
+    font: 30px;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+header img{
+    width: 40px;
+    height: auto;
+    margin: 0px -10px;
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:80px;
+
+}
+
+.flex2 div{
+    width: 50%;
+}
+
+.hero-section img{
+    max-width: 100%;
+
+}
+
+
+.container{
+    margin: 0px 120px;
+
+}
+
+body {
+    margin:0px;
+
+}
+
+.header-links {
+    margin-left: auto;
+    
+}
+
+header a {
+    color: #e5e7eb;
+    background-color: transparent;
+    text-decoration: none;
+    font: 18px sans-serif;
+    margin-left:  10px;
+    
+  }
+
+.hero-section{
+    margin: 0px;
+    padding: 70px 0px;
+    background-color: #1F2937;
+    color:#e5e7eb;
+    font: 18px;
+    font-family: sans-serif;
+
+}
+
+.hero-section p{
+    padding: 0px;
+    margin-top: 5px;
+}
+
+.hero-section h1{
+    color:#f9faf8;
+    font: 48px;
+    font-weight: 900;
+    font-family: 'Reem Kufi', sans-serif;
+    margin: 0px;
+    line-height: 40px;
+}
