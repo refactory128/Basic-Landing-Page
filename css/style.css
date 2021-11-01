@@ -1,3 +1,9 @@
+body {
+    margin:0px;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+}
+
 header {
     background-color: #1F2937;
 
@@ -6,15 +12,14 @@ header {
     padding: 0px;
     line-height: 0px;
     color:#e5e7eb;
-    font: 18px;
-    font-family: sans-serif;
+
 
 }
 
 header h1{
     margin: 0px 20px;
     color:#f9FAF8;
-    font: 30px;
+    font-size: 24px;
     font-family: 'Reem Kufi', sans-serif;
 }
 
@@ -28,6 +33,26 @@ header img{
 .flex{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex: 1 1 0;
+}
+
+.info-cards{
+
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 52px;
+ 
+}
+
+.flexcol{
+    display: flex;
+    flex-direction: column;
+
+
 }
 
 .flex2{
@@ -35,6 +60,7 @@ header img{
     justify-content: space-between;
     align-items: flex-start;
     gap:80px;
+
 
 }
 
@@ -49,14 +75,16 @@ header img{
 
 
 .container{
-    margin: 0px 120px;
+    margin: 0px 200px;
 
 }
 
-body {
-    margin:0px;
+.narowContainer{
+    margin: 0px 300px;
 
 }
+
+
 
 .header-links {
     margin-left: auto;
@@ -67,18 +95,17 @@ header a {
     color: #e5e7eb;
     background-color: transparent;
     text-decoration: none;
-    font: 18px sans-serif;
+
     margin-left:  10px;
     
   }
 
 .hero-section{
     margin: 0px;
-    padding: 70px 0px;
+    padding: 100px 0px;
     background-color: #1F2937;
     color:#e5e7eb;
-    font: 18px;
-    font-family: sans-serif;
+
 
 }
 
@@ -87,11 +114,108 @@ header a {
     margin-top: 5px;
 }
 
-.hero-section h1{
+.heroMainText{
     color:#f9faf8;
-    font: 48px;
-    font-weight: 900;
-    font-family: 'Reem Kufi', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+
     margin: 0px;
-    line-height: 40px;
+    
+}
+
+Button{
+
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0px;
+}
+
+.info-section h2{
+    font-size: 36px;
+
+    color: #1F2937;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+}
+
+
+.info p{
+    text-align: center;
+    width: 200px;
+
+}
+
+.info {
+    max-width: 200%;
+
+}
+
+.info img{
+    border: 8px solid #3882F6;
+    border-radius: 30px;
+}
+
+.quote-section{
+    background-color: #e5e7eb;
+    padding: 180px 120px 150px 120px;
+    margin: 150px 0px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote{
+    margin: 0px;
+
+}
+
+.author {
+    font-weight: bold;
+    text-align: right;
+    margin: 5px;
+    font-style: normal;
+
+}
+
+.cta-section{
+    margin: 150px;
+}
+
+.blue-box{
+    background-color: #3882F6;
+    color: white;
+    padding: 40px 150px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    margin: 0px;
+
+}
+
+.blue-box p{
+    margin: 0px;
+}
+
+.blue-box h3{
+    margin: 5px 0px;
+}
+
+.blue-box Button{
+    margin-left: auto;
+    border: 5px solid white;
+    min-width: 150px;
+}
+
+footer{
+    background-color: #1F2937;
+    padding: 30px;
+
+    color:White;
+    text-align: center;
 }
